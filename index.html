@@ -1,219 +1,175 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>MUSILA ARNOLD | Mechatronics Technician in Kenya</title>
-
-  <meta name="description"
-        content="Visit ARNOLD's professional profile, mechatronics skills, engineering projects, robotics, PLC automation and technical portfolio in Kenya.">
-
-  <meta name="author" content="MUSILA ARNOLD">
+  <title>Musila Arnold Mulili | Mechatronics & Automation</title>
+  <meta name="description" content="Professional portfolio of Musila Arnold Mulili, a mechatronics technician based Kenya performing industrial automation, electromechanical systems, robotics and product prototyping.">
+  <meta name="author" content="Musila Arnold Mulili">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://ramses9069.github.io/">
-
-  <meta property="og:title"
-        content="MUSILA ARNOLD| Mechatronics Technician">
-  <meta property="og:description"
-        content="Professional profile, engineering projects and mechatronics portfolio.">
-  <meta property="og:url" content="https://ramses9069.github.io/">
+  <link rel="canonical" href="https://ramses9069.github.io/MUSILA-ARNOLD.github.io/">
+  <meta property="og:title" content="Musila Arnold Mulili | Mechatronics Portfolio">
+  <meta property="og:description" content="Mechatronics, PLC automation, robotics,control and instrumentation,mechanical design prototyping and fabrication.">
   <meta property="og:type" content="website">
-
+  <meta property="og:url" content="https://ramses9069.github.io/MUSILA-ARNOLD.github.io/">
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "MUSILA",
-    "url": "https://ramses9069.github.io/",
-    "jobTitle": "Mechatronics Technician",
-    "knowsAbout": [
-      "Mechatronics",
-      "Small and Large scale Automation and trouble shooting",
-      "Robotics",
-      "Electromechanical Systems repair,installation and maintenace",
-      "system design and prototyping"
-    ]
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Musila Arnold Mulili",
+    "url":"https://ramses9069.github.io/MUSILA-ARNOLD.github.io/",
+    "jobTitle":"MECHATRONICS TECHNICIAN",
+    "knowsAbout":["Mechatronics","PLC automation","Electromechanical systems","Robotics","Embedded systems","CAD design and prototyping"]
   }
   </script>
-
   <style>
+    :root { color-scheme: light dark; --bg: light-dark(#f5f7fb,#0a1220); --surface: light-dark(#ffffff,#101d30); --surface-2: light-dark(#edf2f8,#16253b); --text: light-dark(#142238,#edf4ff); --muted: light-dark(#58677d,#a8b8cc); --line: light-dark(#dce4ee,#283951); --blue: #69b7ff; --cyan: #67e8df; --navy: #0b1b31; }
     * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      line-height: 1.7;
-      color: #1e293b;
-      background: #f8fafc;
-    }
-
-    header {
-      background: #10243a;
-      color: white;
-      padding: 48px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: clamp(2rem, 6vw, 3rem);
-    }
-
-    header p { color: #d5e3f2; }
-
-    nav {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-      padding: 14px;
-      background: #193650;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-    }
-
-    main {
-      max-width: 850px;
-      margin: auto;
-      padding: 24px 18px;
-    }
-
-    section {
-      background: white;
-      padding: 24px;
-      margin: 18px 0;
-      border-radius: 12px;
-      border: 1px solid #e2e8f0;
-    }
-
-    h2 { color: #163d5c; }
-
-    a { color: #075eaa; }
-
-    .button {
-      display: inline-block;
-      background: #1769aa;
-      color: white;
-      padding: 10px 16px;
-      border-radius: 6px;
-      text-decoration: none;
-      margin: 5px 5px 5px 0;
-    }
-
-    footer {
-      text-align: center;
-      padding: 24px;
-      color: #64748b;
-    }
+    html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+    a { color: inherit; }
+    .progress { position: fixed; inset: 0 auto auto 0; height: 3px; width: 0; background: linear-gradient(90deg,var(--blue),var(--cyan)); z-index: 20; }
+    .nav { position: sticky; top: 0; z-index: 15; display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 14px max(5vw,20px); border-bottom: 1px solid var(--line); background: light-dark(rgba(255,255,255,.9),rgba(10,18,32,.9)); backdrop-filter: blur(14px); }
+    .brand { font-weight: 850; letter-spacing: -.04em; text-decoration: none; }
+    .brand span { color: var(--blue); }
+    .navlinks { display: flex; gap: 20px; flex-wrap: wrap; }
+    .navlinks a { font-size: .9rem; color: var(--muted); text-decoration: none; transition: color .2s; }
+    .navlinks a:hover { color: var(--blue); }
+    .hero { position: relative; overflow: hidden; padding: clamp(70px,10vw,130px) max(5vw,20px) 90px; background: radial-gradient(ellipse at 80% 20%, light-dark(rgba(105,183,255,.22),rgba(105,183,255,.13)), transparent 38%), radial-gradient(ellipse at 12% 80%, light-dark(rgba(103,232,223,.14),rgba(103,232,223,.09)), transparent 34%); }
+    .hero-inner { max-width: 1120px; margin: auto; display: grid; grid-template-columns: 1.35fr .65fr; align-items: center; gap: 50px; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: var(--cyan); font-size: .78rem; font-weight: 800; text-transform: uppercase; letter-spacing: .16em; }
+    .dot { width: 8px; height: 8px; background: var(--cyan); border-radius: 50%; box-shadow: 0 0 18px var(--cyan); animation: pulse 2s infinite; }
+    h1 { font-size: clamp(2.8rem,7vw,5.8rem); line-height: .99; letter-spacing: -.065em; margin: 22px 0; max-width: 850px; }
+    .gradient { color: var(--blue); }
+    .hero p { max-width: 650px; color: var(--muted); font-size: clamp(1rem,2vw,1.18rem); }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 11px 17px; border: 1px solid var(--line); border-radius: 10px; font-weight: 750; text-decoration: none; transition: transform .2s, border-color .2s, background .2s; }
+    .btn:hover { transform: translateY(-3px); border-color: var(--blue); }
+    .btn.primary { color: #071629; background: linear-gradient(110deg,var(--blue),var(--cyan)); border: 0; }
+    .orb-wrap { display: grid; place-items: center; min-height: 300px; }
+    .orb { width: min(300px,65vw); aspect-ratio: 1; border-radius: 50%; border: 1px solid light-dark(rgba(30,90,140,.3),rgba(105,183,255,.35)); display: grid; place-items: center; position: relative; animation: float 6s ease-in-out infinite; }
+    .orb:before,.orb:after { content: ""; position: absolute; inset: 10%; border: 1px dashed var(--line); border-radius: 50%; animation: rotate 24s linear infinite; }
+    .orb:after { inset: 22%; border-style: solid; animation-direction: reverse; animation-duration: 16s; }
+    .orb-core { display: grid; place-items: center; width: 42%; aspect-ratio: 1; border-radius: 24px; background: linear-gradient(140deg,#173b60,#0d223b); box-shadow: 0 0 60px rgba(105,183,255,.2); color: #dff7ff; font-size: 2.5rem; transform: rotate(-8deg); }
+    .orbit-label { position: absolute; background: var(--surface); border: 1px solid var(--line); padding: 7px 11px; border-radius: 9px; font-size: .75rem; color: var(--muted); box-shadow: 0 10px 25px rgba(0,0,0,.08); }
+    .label-one { top: 13%; right: -5%; } .label-two { bottom: 14%; left: -9%; } .label-three { bottom: 5%; right: 2%; }
+    section.content { max-width: 1120px; margin: auto; padding: 78px max(5vw,20px); }
+    .section-head { max-width: 720px; margin-bottom: 30px; }
+    .kicker { color: #2996d9; text-transform: uppercase; letter-spacing: .14em; font-weight: 850; font-size: .75rem; }
+    h2 { margin: 8px 0 12px; font-size: clamp(2rem,4vw,3.2rem); line-height: 1.1; letter-spacing: -.05em; }
+    .lead { color: var(--muted); margin: 0; }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 24px; }
+    .panel h3 { margin-top: 0; }
+    .facts { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 20px; }
+    .fact { padding: 13px; background: var(--surface-2); border-radius: 12px; }
+    .fact strong { display: block; font-size: .93rem; }
+    .fact span { color: var(--muted); font-size: .82rem; }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .chip { border: 1px solid var(--line); background: var(--surface-2); color: var(--muted); border-radius: 999px; padding: 7px 12px; font-size: .85rem; }
+    .projects { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+    .project { position: relative; overflow: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 25px; transition: transform .25s,border-color .25s; }
+    .project:hover { transform: translateY(-6px); border-color: var(--blue); }
+    .project-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+    .project-icon { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; background: var(--surface-2); font-size: 1.5rem; }
+    .status { font-size: .7rem; font-weight: 800; color: var(--cyan); border: 1px solid var(--line); border-radius: 99px; padding: 4px 9px; }
+    .project h3 { margin: 20px 0 8px; font-size: 1.25rem; }
+    .project p { color: var(--muted); margin: 0; }
+    .project .tags { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 18px; }
+    .project .tags span { font-size: .75rem; color: var(--muted); background: var(--surface-2); padding: 4px 8px; border-radius: 6px; }
+    .callout { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; padding: clamp(24px,5vw,42px); border-radius: 22px; background: linear-gradient(120deg,#123454,#10233a); color: #f2f8ff; }
+    .callout p { color: #c3d4e6; max-width: 630px; margin-bottom: 0; }
+    .callout h2 { font-size: clamp(1.8rem,4vw,2.8rem); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .contact-link { display: flex; align-items: center; justify-content: space-between; gap: 12px; text-decoration: none; padding: 15px; background: var(--surface-2); border-radius: 12px; margin-top: 10px; }
+    .contact-link small { display: block; color: var(--muted); }
+    footer { border-top: 1px solid var(--line); padding: 25px max(5vw,20px); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; color: var(--muted); font-size: .85rem; }
+    .reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+    @keyframes rotate { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(103,232,223,.35); } 50% { box-shadow: 0 0 0 8px rgba(103,232,223,0); } }
+    @media (max-width: 760px) { .nav { align-items: flex-start; flex-direction: column; } .navlinks { gap: 12px; } .hero-inner { grid-template-columns: 1fr; } .orb-wrap { min-height: 240px; } .orb { width: 220px; } .about-grid,.projects,.contact-grid { grid-template-columns: 1fr; } .hero { padding-top: 65px; } }
+    @media (prefers-reduced-motion: reduce) { *,*::before,*::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } .reveal { opacity: 1; transform: none; } }
   </style>
 </head>
-
 <body>
-  <header>
-    <h1>MUSILA ARNOLD</h1>
-    <p>Mechatronics Technology | Engineering | Automation</p>
-    <p>Kenya</p>
-  </header>
-
-  <nav aria-label="Main navigation">
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#cv">CV</a>
-    <a href="#contact">Contact</a>
+  <div class="progress" id="progress"></div>
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#home">MAM<span>.</span></a>
+    <div class="navlinks">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#cv">CV</a><a href="#contact">Contact</a>
+    </div>
   </nav>
-
+  <header class="hero" id="home">
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> Mechatronics · Kenya</div>
+        <h1>Musila Arnold<br><span class="gradient">Mulili.</span></h1>
+        <p>Mechatronics technician focused on practical and ease of use industrial automation, electromechanical(mechanical) systems design ,prototyping , embedded electronics and robotics prototypes.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore projects <span aria-hidden="true">↘</span></a>
+          <a class="btn" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="orb-wrap" aria-hidden="true">
+        <div class="orb"><div class="orb-core">⚙</div><span class="orbit-label label-one">Automation</span><span class="orbit-label label-two">Mechatronics</span><span class="orbit-label label-three">Prototyping</span></div>
+      </div>
+    </div>
+  </header>
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I'm a mechatronics technician in Kenya,
-        working on electromechanical systems, industrial
-        automation, robotics, electronics and mechanical design,prototyping and fabrication.
-      </p>
-      <p>
-        My goal is to develop practical and sustainable easy to use ,engineering solutions
-        through design, prototyping, testing and continuous learning and debugging.
-      </p>
+    <section class="content reveal" id="about">
+      <div class="section-head"><div class="kicker">01 / About</div><h2>Engineering ideas into working systems.</h2><p class="lead">I am building my skills through technical study, hands-on experimentation and project documentation. I am interested in engineering roles and industrial attachment opportunities where I can learn, contribute and improve real systems.</p></div>
+      <div class="about-grid">
+        <article class="panel"><h3>What I focus on</h3><p class="lead">Connecting mechanical components, electrical circuits, sensors and control logic to solve practical problems. I value safe design, testing, troubleshooting and clear technical documentation.</p><div class="facts"><div class="fact"><strong>Automation</strong><span>PLC logic and sensors</span></div><div class="fact"><strong>Design</strong><span>CAD and prototyping</span></div><div class="fact"><strong>Electronics</strong><span>Microcontrollers and circuits</span></div><div class="fact"><strong>Maintenance</strong><span>Fault-finding principles</span></div></div></article>
+        <article class="panel" id="skills"><h3>Technical toolkit</h3><p class="lead">Tools and areas I study or practise. Individual project pages should explain my exact contribution and experience level.</p><div class="skills"><span class="chip">Mitsubishi FX PLC</span><span class="chip">Ladder Logic</span><span class="chip">Arduino</span><span class="chip">ESP32</span><span class="chip">SolidWorks</span><span class="chip">AutoCAD</span><span class="chip">Sensors & Actuators</span><span class="chip">Electromechanical Systems</span><span class="chip">Robotics</span><span class="chip">Fault Diagnosis</span></div></article>
+      </div>
     </section>
-
-    <section id="skills">
-      <h2>Technical Skills</h2>
-      <ul>
-        <li>PLC programming and industrial automation</li>
-        <li> embedded systems</li>
-        <li>SolidWorks and AutoCAD</li>
-        <li>Sensors, actuators and control systems(instruentation and control</li>
-        <li>Electromechanical maintenance and fault diagnosis(mechanical works)</li>
-      </ul>
-      <p>Skills listed here should reflect my actual experience.</p>
+    <section class="content reveal" id="projects">
+      <div class="section-head"><div class="kicker">02 / Selected work</div><h2>Projects & engineering concepts.</h2><p class="lead">A growing portfolio of practical builds and design concepts. Replace these summaries with your own photos, circuit diagrams, code, CAD renders and verified test results as they become available.</p></div>
+      <div class="projects">
+        <article class="project"><div class="project-top"><div class="project-icon">⚙️</div><span class="status">PLC / Automation</span></div><h3>Sensor-based conveyor sorting</h3><p>Automation trainer concept using proximity and optical sensors with Mitsubishi FX-series PLC logic to detect items and control conveyor and pneumatic outputs.</p><div class="tags"><span>Mitsubishi FX</span><span>Ladder logic</span><span>Sensors</span></div></article>
+        <article class="project"><div class="project-top"><div class="project-icon">📡</div><span class="status">Instrumentation concept</span></div><h3>Transformer overload monitoring</h3><p>Developing a concept for detecting transformer overload conditions, triggering local alarms and planning remote notification to a utility control point.</p><div class="tags"><span>Measurement</span><span>Protection</span><span>System design</span></div></article>
+        <article class="project"><div class="project-top"><div class="project-icon">🤖</div><span class="status">Embedded systems</span></div><h3>Microcontroller prototypes</h3><p>Exploring Arduino and ESP32-based projects that connect sensors, control outputs and user feedback to address practical automation needs.</p><div class="tags"><span>Arduino</span><span>ESP32</span><span>Electronics</span></div></article>
+        <article class="project"><div class="project-top"><div class="project-icon">📐</div><span class="status">Mechanical design</span></div><h3>Small-scale fruit processing line</h3><p>Design concept for a tabletop agricultural system combining fruit washing, weighing, sorting and packaging to demonstrate a small processing workflow.</p><div class="tags"><span>CAD</span><span>Mechanisms</span><span>Agriculture</span></div></article>
+      </div>
     </section>
-
-    <section id="projects">
-      <h2>Engineering Projects</h2>
-
-      <article>
-        <h3>PLC Automation</h3>
-        <p>
-          Developing and documenting automation systems using
-          sensors, PLC logic and controlled outputs.
-        </p>
-      </article>
-
-      <article>
-        <h3>Embedded Systems and Robotics</h3>
-        <p>
-          Exploring microcontrollers, electronic circuits,
-          sensors and practical robotics prototypes.
-        </p>
-      </article>
-
-      <article>
-        <h3>Mechanical Design</h3>
-        <p>
-          Using CAD tools to design and document mechanical
-          components and electromechanical assemblies.
-        </p>
-      </article>
-
-      <p>
-        Detailed project photographs, drawings, code and test
-        results will be added as projects are documented.
-      </p>
+    <section class="content reveal" id="cv">
+      <div class="callout"><div><div class="kicker">03 / CV</div><h2>My experience, education and skills.</h2><p>Download my CV to review my current education, technical skills and project experience.</p></div><a class="btn primary" href="cv.pdf">Download CV ↗</a></div>
+      <p class="lead" style="margin-top:12px;font-size:.88rem">Before publishing, upload your real CV to this repository and name the file <strong>cv.pdf</strong>. Until then, this button will not have a working PDF to open.</p>
     </section>
-
-    <section id="cv">
-      <h2>Curriculum Vitae</h2>
-      <p>
-        My CV provides further information about my education,
-        technical skills and engineering experience.
-      </p>
-      <a class="button" href="cv.pdf">View or Download CV</a>
-      <p>....</p>
-    </section>
-
-    <section id="upon request">
-      <h2>Professional Links</h2>
-      <p>Connect with me to discuss engineering and professional opportunities.</p>
-      <a class="button"
-         href="https://WWW.linkedin.com/in/musila-arnold"
-         target="_blank"
-         rel="noopener noreferrer">LinkedIn</a>
-      <a class="button"
-         href="https://github.com/ramses9069"
-         target="_blank"
-         rel="noopener noreferrer">GitHub</a>
-      <p>Email:musila87arnold@gmail.com.</p>
+    <section class="content reveal" id="contact">
+      <div class="section-head"><div class="kicker">04 / Contact</div><h2>Let's connect.</h2><p class="lead">Open to professional conversations, learning opportunities and engineering collaborations.</p></div>
+      <div class="contact-grid">
+        <div class="panel"><h3>Professional profiles</h3><a class="contact-link" href="https://github.com/ramses9069" target="_blank" rel="noopener noreferrer"><span><strong>GitHub</strong><small>Code and project documentation</small></span><span>↗</span></a><a class="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><span><strong>LinkedIn</strong><small>Professional profile</small></span><span>↗</span></a></div>
+        <div class="panel"><h3>Contact details</h3><p class="lead">Add your preferred professional email and your exact LinkedIn profile link before publishing. Avoid posting private personal information.</p><p><strong>Location:</strong> Kenya</p><p><strong>Email:</strong> Add your professional email</p></div>
+      </div>
     </section>
   </main>
-
-  <footer>
-    <p>© 2026 MUSILA ARNOLD | Mechatronics and Engineering Portfolio</p>
-  </footer>
+  <footer><span>© <span id="year">2026</span> Musila Arnold Mulili</span><span>Designed for engineering, learning and impact.</span></footer>
+  <script>
+    const progress = document.getElementById('progress');
+    function updateProgress() {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = (max > 0 ? window.scrollY / max * 100 : 0) + '%';
+    }
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const items = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      items.forEach(item => observer.observe(item));
+    } else {
+      items.forEach(item => item.classList.add('visible'));
+    }
+  </script>
 </body>
 </html>
